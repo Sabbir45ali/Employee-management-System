@@ -9,7 +9,7 @@ const app = express();
 /* Connection to DB from Node.JS App */
 mongoose
   .connect(
-    "mongodb+srv://sabbir84b:06vTDdTTk4dmzE0N@cluster0.izapizm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "add_your_mongoDB_connection_string_here",
   )
   .then(() => console.log("Connection Established !"))
   .catch((err) => console.log("Please Check Error", err));
